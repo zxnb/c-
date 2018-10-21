@@ -1,0 +1,103 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+    int line;
+
+    cout<<"please input line"<<endl;
+
+    cin>>line;
+
+    for(int a = 0;a<line;a++)
+
+    {
+
+        for(int c = line;c>a;c--)
+
+        {
+
+            cout<<" ";
+
+        }
+
+        for(int b = 0;b<a;b++)
+
+        {
+
+            std::cout<<"*";
+
+        }
+
+        for(int d = 0;d<a;d++)
+
+        {
+
+            std::cout<<"*";
+
+        }
+
+        std::cout<<"\n";
+
+    }
+
+    
+
+    for(int f = 0;f<line;f++)
+
+    {
+
+        for(int h = 0;h<f;h++)
+
+        {
+
+            cout<<" ";
+
+        }
+
+        for(int g = line;g>f;g--)
+
+        {
+
+            cout<<"*";
+
+        }
+
+        for(int i = line;i>f;i--)
+
+        {
+
+            
+
+            cout<<"*";
+
+            
+
+        }
+
+        
+
+        cout<<""<<endl;
+
+    }
+
+    
+
+    
+
+    
+
+    return 0;
+
+    
+
+    
+
+    
+
+    
+
+}
