@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int line;
+  cout<<"请输入行数"<<endl;
+  cin>>line;
+  for(int l=0;l<line;l++)
+  {
+      for(int b=line;b>l;b--)
+      {
+      cout<<" ";
+      }
+      for(int a=0;a<l;a++)
+      {
+       cout<<"*";
+      }
+      for(int c=1;c<l;c++)
+      {
+       cout<<"*";
+      }
+      cout<<endl;
+  }
+  //以下为反向金字塔，与上方组成菱形
+  for(int l2=0;l2<line;l2++)
+  {
+      for(int x=0;x<l2;x++)
+      {
+       cout<<" ";
+      }
+      for(int y=line;y>l2;y--)
+      {
+       cout<<"*";
+      }
+      for(int z=line-1;z>l2;z--)
+      {
+       cout<<"*";
+      }
+      cout<<endl;
+  }
+return 0;
+}
