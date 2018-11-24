@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   // int b[]={1,6,9,46};
+    int a[3];
+    a[0]=5;
+    a[1]=6;
+    a[2]=9;
+    a[3]=7;
+    int max=0;
+    
+    for(int l=0;l<3;l++)
+    {
+        if(a[l]>max)
+        {
+         max=a[l];
+        }
+    }
+    
+    
+    cout<<max<<endl;
+  //  cout<<b[2]<<endl;
+return 0;
+}
