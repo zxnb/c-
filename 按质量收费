@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int heavy;
+double m;
+cout<<"请输入重量"<<endl;
+cin>>heavy;
+if(heavy<=20)
+{
+cout<<"套餐一"<<endl;
+m=heavy*1.68;
+cout<<"你应付:\t"<<m<<"\t元"<<endl;
+}
+else
+{
+cout<<"套餐二"<<endl;
+m=heavy*1.98;
+cout<<"你应付:\t"<<m<<"\t元"<<endl;
+}
+return 0;
+}
+    
+    
